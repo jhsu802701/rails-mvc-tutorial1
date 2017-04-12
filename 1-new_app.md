@@ -24,3 +24,6 @@ rails server -b 0.0.0.0
 * I recommend always keeping a tmux window dedicated to the local server, because it shows you what a visitor to your site would see. You should always keep the local server running when you are working on your project. There may be times when you need to shut down and then restart the local server.
 * From your host system, open the ports.txt file within the shared directory of the Docker container. (Alternatively, you can enter the command "cat /home/winner/shared/ports.txt" from your Docker container.) Note the host port that corresponds to port 3000 in Docker. That's the port number to enter in your web browser in order to view the app.
 * While the local server is running, open the web browser in your host environment and go to the appropriate URL. You should see the Ruby on Rails default splash screen. Keep this web browser tab open, and refresh it periodically to see the progress in this project.
+
+## Conclusion
+Congratulations!  You have now created a blank Rails app.
