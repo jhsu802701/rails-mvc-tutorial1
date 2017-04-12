@@ -9,8 +9,6 @@
 ```
 #!/bin/bash
 
-sh pg-start.sh
-
 echo 'View page at http://localhost:3000/'
 echo 'If you are using Docker or Vagrant,'
 echo 'the port number may be something else.'
