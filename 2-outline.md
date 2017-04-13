@@ -47,3 +47,11 @@ echo 'outline.sh OUTPUT FILES:'
 echo $d_mo
 echo $d_co
 ```
+* Enter the command "sh outline.sh" to make use of the annotate, rails-erd, and railroady gems.
+* The annotate gem automatically adds comments to key files.  The output of the "rails routes" command is automatically added as comments to the config/routes.rb file.
+* The rails-erd gem automatically creates a block diagram of the models in your app.  Because this app has no models yet, there is no block diagram to view yet.
+* The railroady gem automatically creates a block diagram of the controllers in your app.  So far, the only controller in this app is the basic application controller.
+
+## Conclusions
+* You can now automatically outline your app.  However, there is very little to outline at this point.
+* The annotate, rails-erd, and railroady gems are indispensable for large and complex apps.  Trying to read all of the code in such an app makes my head spin.
