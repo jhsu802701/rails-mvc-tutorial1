@@ -28,3 +28,6 @@ The pupils resource is listed as an application route in config/routes.rb.
 * In app/controllers/pupils_controller.rb, the relevant definition is "update".  Note that pupil_params is a private method that specifies which parameters are permitted.  The update method then attempts to save this new pupil with the specified parameters.
 
 ## Destroy
+* In app/views/pupils/index.html.erb, the path leading to the page for deleting a pupil is "pupil" with the delete method.
+* In the annotations of config/routes.rb, the relevant line has the verb "DELETE".  The URL for the first pupil is "/pupils/1", and the controller action is "destroy".
+* In app/controllers/pupils_controller.rb, the relevant definition is "destroy".  Note that the before_action set_pupil applies for the destroy action.
