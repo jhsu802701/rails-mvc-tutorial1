@@ -13,6 +13,8 @@ Enter the command "rails g scaffold Pupil name:string form:string".  This genera
 * The config/routes.rb file now shows the URLs relating to the pupils methods.
 * The app/models/pupil.rb file now contains a list of the pupil parameters in comments at the top of the file.
 * The app/controllers/pupils_controller.rb file now has the routes provided in comments just before each of the corresponding method definitions.
+* The log/diagram-models.jpg file now shows the pupil model and its parameters in the block diagram.
+* The log/diagram-controllers.jpg file now shows the pupil controller and its methods in the block diagram.
 
 ## Viewing the App and Database
 * In your web browser, add "/pupils" to the end of the URL, and press Enter.  You should now see the index of pupils, which is currently empty.
