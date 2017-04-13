@@ -4,6 +4,12 @@
 * Create the new Rails app by entering the command "rails new mvc1".
 * Enter the command "cd mvc1" to enter your new app's root directory.
 
+## Database
+* Enter the command "rails db:migrate", which migrates the database.  This action creates the db/schema.rb and development.sqlite3 files.
+* The db/schema.rb is automatically generated every time you perform the database migration.
+* Use the SQLite Browser on your host system to view the current state of the database in the development.sqlite3 file.
+* At this early stage, there is nothing of significance in the db/schema.rb script or development.sqlite3 database.
+
 ## server.sh
 * Create the server.sh file with the following content:
 ```
