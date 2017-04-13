@@ -11,7 +11,7 @@ Now that you have set up the app and entered, edited, and destroyed data in it, 
 * The annotate gem prints the output of the "rails routes" command in the beginning of the config/routes.rb file.  This output includes the path name, HTTP action, path, and controller action.
 
 ## Views
-The pupil view pages are in the app/views/pupils directory.
+The pupil view pages are in the app/views/pupils directory.  When a specific method is called by the controller, the corresponding view page is displayed.
 
 ## Controller
 * The pupil controller is defined in the app/controllers/pupils_controller.rb file.
