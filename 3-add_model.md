@@ -16,6 +16,9 @@ Enter the command "rails g scaffold Pupil name:string form:string".  This genera
 
 ## Viewing the App
 * In your web browser, add "/pupils" to the end of the URL, and press Enter.  You should now see the index of pupils, which is currently empty.
-* Click on "New Pupil".  Enter the name "Clement Lefebvre" and the form "Clem".
-* Click on "New Pupil".  Enter the name "Vincent Vermeulen" and the form "Xenopeek".
-* Click on "New Pupil".  Enter the name "Suzanne" and the form "Oscar799".
+* Click on "New Pupil".  Enter the name "Clement Lefebvre" and the form "Clem".  Click on "Back" when you are finished to return to the pupil index.  Now the index shows the pupil you just entered.
+* Click on "New Pupil".  Enter the name "Vincent Vermeulen" and the form "Xenopeek".  Click on "Back" when you are finished to return to the pupil index.  Now the index shows both of the pupils you just entered.
+* Click on "New Pupil".  Enter the name "Suzanne" and the form "Oscar799".  Click on "Back" when you are finished to return to the pupil index.  Now the index shows all of the pupils you just entered.
+
+## Viewing the Database
+Use the SQLite Browser in your host OS to view the database again.  Go to the pupils table and press the refresh button.  The pupils table should now include the pupils you entered.
