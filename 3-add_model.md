@@ -14,11 +14,16 @@ Enter the command "rails g scaffold Pupil name:string form:string".  This genera
 * The app/models/pupil.rb file now contains a list of the pupil parameters in comments at the top of the file.
 * The app/controllers/pupils_controller.rb file now has the routes provided in comments just before each of the corresponding method definitions.
 
-## Viewing the App
+## Viewing the App and Database
 * In your web browser, add "/pupils" to the end of the URL, and press Enter.  You should now see the index of pupils, which is currently empty.
 * Click on "New Pupil".  Enter the name "Clement Lefebvre" and the form "Clem".  Click on "Back" when you are finished to return to the pupil index.  Now the index shows the pupil you just entered.
 * Click on "New Pupil".  Enter the name "Vincent Vermeulen" and the form "Xenopeek".  Click on "Back" when you are finished to return to the pupil index.  Now the index shows both of the pupils you just entered.
 * Click on "New Pupil".  Enter the name "Suzanne" and the form "Oscar799".  Click on "Back" when you are finished to return to the pupil index.  Now the index shows all of the pupils you just entered.
+* Use the SQLite Browser in your host OS to view the database again.  Go to the pupils table and press the refresh button.  The pupils table should now include the pupils you entered.
+* Click on "New Pupil".  Enter the name "Homer Simpson" and the form "bartender".  Click on "Back" when you are finished to return to the pupil index.  Now the index shows all of the pupils you just entered.
+* Use the SQLite Browser in your host OS to view the database again.  Go to the pupils table and press the refresh button.  Homer Simpson should be on the list.
+* In the row containing "Homer Simpson", click on "Edit".  Change the form parameter to "power plant operator".  Click on "Update Pupil".  Now you'll see that the form parameter is updated.  Click on "Back" to return to the pupil index.  Now you'll see Homer Simpson listed as a power plant operator.
+* Use the SQLite Browser in your host OS to view the database again.  Go to the pupils table and press the refresh button.  Homer Simpson should be in the table and listed as a power plant operator.
+* In the row containing "Homer Simpson", click on "Destroy".  When you are asked, "Are you sure?", click "OK" in the dialog box.  You'll see that Homer Simpson no longer shows up in the pupil index.
+* Use the SQLite Browser in your host OS to view the database again.  Go to the pupils table and press the refresh button.  The Homer Simpson entry should be gone.
 
-## Viewing the Database
-Use the SQLite Browser in your host OS to view the database again.  Go to the pupils table and press the refresh button.  The pupils table should now include the pupils you entered.
